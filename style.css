@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+}
+body {
+    width: 1920px;
+    position: absolute;
+    left: 50%;
+    margin-left: calc(-1288px / 2);
+    top: 50%; 
+    margin-top: calc(-610px / 2);
+
+}
+section {
+    font-family: 'Noto Sans KR', sans-serif;
+    display: inline-block;
+    
+}
+#card1 {
+    width: 450px;
+    height: 650px;
+    margin-right: 120px;
+    background-image: url(./img/movie_image.jpg);
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.85);
+    border-radius: 10px;
+}
+#card2 {
+    width: 450px;
+    height: 650px;
+    margin-right: 120px;
+    background-image: url(./img/movie_image\ \(1\).jpg);
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.85);
+    border-radius: 10px;
+}
+#card3 {
+    width: 450px;
+    height: 650px;
+    background-image: url(./img/movie_image\ \(2\).jpg);
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.85);
+    border-radius: 10px;
+}
+#card_back {
+    width: 450px;
+    height: 270px;
+    background-color: #858585;
+    border-radius: 10px;
+}
+#main_info {
+    display: inline-block;
+    border: 2px solid white;
+    border-radius: 5px;
+    width: 340px;
+    height: 505px;
+    margin-top: 60px;
+    margin-left: 55px;
+    color: white;
+}
+#main_info h4 {
+    padding-top: 20px;
+    padding-left: 15px;
+    font-size: 20px;
+}
+#main_info p {
+    padding-top: 10px;
+    margin-left: 20px;
+}
+#button {
+    display: inline-block;
+    border: 2px solid white;
+    width: 133px;
+    height: 51px;
+    margin-top: 260px;
+    margin-left: 180px;
+    border-radius: 5px;
+    font-weight: bold;
+    background-color: #858585;
+}
+#button a {
+    text-decoration: none;
+    color: white;
+}
+#button a:hover {
+    color: tomato;
+}
